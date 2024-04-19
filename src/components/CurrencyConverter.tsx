@@ -4,7 +4,7 @@ import { endpointPath } from "../config/api";
 import Dropdowns from "./Dropdown";
 import Result from "./Result";
 import moment from "moment";
-import ".";
+import "../styles/index.css";
 
 const CurrencyConverter: React.FC = () => {
   const [from, setFrom] = useState<string>("EUR - Euro (€)");
